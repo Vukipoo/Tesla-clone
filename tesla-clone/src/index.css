@@ -477,3 +477,8 @@ code {
   position: relative;
   left: 65px
 }
+
+
+#close-icon {
+  cursor: pointer
+}

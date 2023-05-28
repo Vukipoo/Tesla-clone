@@ -8,7 +8,6 @@ import ModelX from './components/ModelX'
 import SolarPanels from './components/SolarPanels'
 import SolarRoof from './components/SolarRoof'
 import Accessories from './components/Accessories'
-import Menu from './components/Menu'
 
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
       <div className='home-n-header'>
        <Header />
       <Home />
-      <Menu />
       </div>
      
       <ModelS />
