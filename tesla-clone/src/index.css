@@ -405,15 +405,15 @@ code {
 
 
 .accessories-div {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1GTOYzOgc6sPaMkf8ef9In16UET5dhyb5ZyczfhS3ngl3J3y4L02MfpnenV899E_T5c4&usqp=CAU');
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFr0w4gBEk2s-St8LVtp1IfZCZgdAljtiCoRHVUHpC4meI4Btz3afHXB97XsI3DUiS_zA&usqp=CAU');
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 500px;
   text-align: center;
-  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 
 }
 
@@ -450,4 +450,30 @@ code {
 #accessories-left-btn{
   background-color: black;
   color: whitesmoke
+}
+
+
+.menu-sidebar {
+  position: absolute;
+  top:80px;
+  right: 0;
+  background-color: white;
+  list-style-type: none;
+  line-height: 50px;
+  padding-top:30px;
+  padding-left:50px;
+  padding-bottom:50px;
+  padding-right: 100px;
+
+}
+
+.menu-sidebar li {
+  border-bottom: 1px solid black;
+}
+
+.x-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  left: 65px
 }
