@@ -71,7 +71,8 @@ export default Header
 
 const MenuSidebar = styled.div`
 
-    display: ${props => props.show ? 'block' : 'none'}
+    display: ${props => props.show ? 'block' : 'none'};
+    transition: display 0.2s ease-in-ease-out
 
 
 `
