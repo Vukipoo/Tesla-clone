@@ -15,19 +15,19 @@ function Header() {
 
 
     <div className ='menu'>
-    <p href='a'>Model S</p>
-    <p href='a'>Model Y</p>
-    <p href='a'>Model X</p>
-    <p href='a'>Model 3</p>
-    <p href='a'>Solar Roof</p>
-    <p href='a'>Solar panels</p>
-    <p href='a'>Power Wall</p>
+    <p><a href='https://tesla.com/models'>Model S</a></p>
+    <p><a href='https://tesla.com/modely'>Model Y</a></p>
+    <p><a href='https://tesla.com/modelx'>Model X</a></p>
+    <p><a href='https://tesla.com/model3'>Model 3</a></p>
+    <p><a href='https://tesla.com/solarroof'>Solar Roof</a></p>
+    <p><a href='https://tesla.com/solarpanels'>Solar panels</a></p>
+    <p><a href='https://tesla.com/powerwall'>Power Wall</a></p>
     </div>
 
 
     <div className ='services'>
-    <p href='a'>Shop</p>
-    <p href='a'>Account</p>
+    <p><a href='https://shop.tesla.com'>Shop</a></p>
+    <p><a href='https://tesla.com/teslaaccount'>Account</a></p>
     <p onClick={() => setMenuStatus(true)}>Menu</p>
     </div>
 

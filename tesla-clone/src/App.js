@@ -36,8 +36,15 @@ export default App;
 
 //todo
 
-//menu thing popup sidebar  figure out how to use the state for this
 //arraw that points down 
+//do the links for the actual website
+//do the tailwind css for the menu sidebar
+//favicon logo
+//do what the guy did for the logo
+//do what the guy did for the font
+//do what the guy did for the images
+//ad view inventory tab once the sections are rebuilt 
+
 
 
 
