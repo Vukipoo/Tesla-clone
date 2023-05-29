@@ -1,20 +1,26 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet');
 
+@font-face {
+  font-family: 'gotham book';
+  src: url(./assets/GothamSSm-Book_Web.woff2);
+}
+
 *{
-  font-family: 'Source Sans Pro';
+  font-family: 'gotham book';
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.experience-tesla{
+  position: relative;
+  top: 18px
 }
 
 #logo-img {
@@ -69,9 +75,6 @@ code {
 
 
 
-.experience-tesla{
-  font-size: 20px;
-}
 
 .model-s-div {
   background-image: url('https://cdn.vox-cdn.com/thumbor/4nz-BatJiN4gnV7UuVizk_RVOXo=/0x0:3520x1816/1400x1050/filters:focal(1760x908:1761x909)/cdn.vox-cdn.com/uploads/chorus_asset/file/22264050/Screen_Shot_2021_01_27_at_3.26.14_PM.png');
@@ -86,371 +89,12 @@ code {
 
 
 .home-n-header{
-  background-image: url('https://images.cars.com/cldstatic/wp-content/uploads/tesla-model-y-2021-01-angle--black--dynamic--exterior--front.jpg');
+  background-image: url('https://wallpaperboat.com/wp-content/uploads/2020/03/tesla-01.jpg');
   background-size: cover;
   background-position: center;
 }
 
-.model-s-title {
-  padding-top: 80px;
-}
 
-.model-s-title p{
-  text-decoration: underline;
-}
-
-.model-s-buttons {
-  display: flex;
-  gap: 20px
-}
-
-.model-s-buttons button {
-  
-  width: 250px;
-  height: 35px;
-  border-radius: 5px;
-  border: none;
-  font-size: 17px;
-  font-family: 'Source Sans Pro';
-  cursor: pointer;
-  margin-bottom: 40px;
-  
-}
-
-#model-s-right-btn{
-  background-color: whitesmoke;
-}
-
-
-
-#model-s-left-btn{
-  background-color: black;
-  color: whitesmoke
-}
-
-
-.model-y-div {
-  background-image: url('https://www.teslarati.com/wp-content/uploads/2020/08/tesla-model-y-website.jpg');
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 500px;
-  text-align: center;
-  background-size: cover;
-  background-position: center;
-
-}
-
-.model-y-title {
-  padding-top: 80px;
-}
-
-.model-y-title p{
-  text-decoration: underline;
-}
-
-.model-y-buttons {
-  display: flex;
-  gap: 20px
-}
-
-.model-y-buttons button {
-  
-  width: 250px;
-  height: 35px;
-  border-radius: 5px;
-  border: none;
-  font-size: 17px;
-  font-family: 'Source Sans Pro';
-  cursor: pointer;
-  margin-bottom: 40px;
-  
-}
-
-#model-y-right-btn{
-  background-color: whitesmoke;
-}
-
-
-
-#model-y-left-btn{
-  background-color: black;
-  color: whitesmoke
-}
-
-
-
-
-.model-3-div {
-  background-image: url('https://ev-database.org/img/auto/Tesla_Model_3_2021/Tesla_Model_3_2021-01@2x.jpg');
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 500px;
-  text-align: center;
-  background-size: cover;
-  background-position: center;
-
-}
-
-.model-3-title {
-  padding-top: 80px;
-}
-
-.model-3-title p{
-  text-decoration: underline;
-}
-
-.model-3-buttons {
-  display: flex;
-  gap: 20px
-}
-
-.model-3-buttons button {
-  
-  width: 250px;
-  height: 35px;
-  border-radius: 5px;
-  border: none;
-  font-size: 17px;
-  font-family: 'Source Sans Pro';
-  cursor: pointer;
-  margin-bottom: 40px;
-  
-}
-
-#model-3-right-btn{
-  background-color: whitesmoke;
-}
-
-
-
-#model-3-left-btn{
-  background-color: black;
-  color: whitesmoke
-}
-
-
-
-
-
-
-
-.model-x-div {
-  background-image: url('https://media.ed.edmunds-media.com/tesla/model-x/2021/oem/2021_tesla_model-x_4dr-suv_plaid_fq_oem_1_1600.jpg');
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 500px;
-  text-align: center;
-  background-size: cover;
-  background-position: center;
-
-}
-
-.model-x-title {
-  padding-top: 80px;
-}
-
-.model-x-title p{
-  text-decoration: underline;
-}
-
-.model-x-buttons {
-  display: flex;
-  gap: 20px
-}
-
-.model-x-buttons button {
-  
-  width: 250px;
-  height: 35px;
-  border-radius: 5px;
-  border: none;
-  font-size: 17px;
-  font-family: 'Source Sans Pro';
-  cursor: pointer;
-  margin-bottom: 40px;
-  
-}
-
-#model-x-right-btn{
-  background-color: whitesmoke;
-}
-
-
-
-#model-x-left-btn{
-  background-color: black;
-  color: whitesmoke
-}
-
-
-
-
-
-
-
-
-
-.solar-panels-div {
-  background-image: url('https://news.energysage.com/wp-content/uploads/2023/04/26133522/UPDATE_tesla-solar-panels.webp');
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 500px;
-  text-align: center;
-  background-size: cover;
-  background-position: center;
-
-}
-
-.solar-panels-title {
-  padding-top: 80px;
-}
-
-
-
-.solar-panels-buttons {
-  display: flex;
-  gap: 20px
-}
-
-.solar-panels-buttons button {
-  
-  width: 250px;
-  height: 35px;
-  border-radius: 5px;
-  border: none;
-  font-size: 17px;
-  font-family: 'Source Sans Pro';
-  cursor: pointer;
-  margin-bottom: 40px;
-  
-}
-
-#solar-panels-right-btn{
-  background-color: whitesmoke;
-}
-
-
-
-#solar-panels-left-btn{
-  background-color: black;
-  color: whitesmoke
-}
-
-
-
-
-
-
-
-
-
-.solar-roof-div {
-  background-image: url('https://www.thecooldown.com/wp-content/uploads/2023/04/BXuug4ttPszfeUXNDikrM86LU73bIeO2byU-Oz4neOI.jpeg');
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 500px;
-  text-align: center;
-  background-size: cover;
-  background-position: center;
-
-}
-
-.solar-roof-title {
-  padding-top: 80px;
-}
-
-
-
-.solar-roof-buttons {
-  display: flex;
-  gap: 20px
-}
-
-.solar-roof-buttons button {
-  
-  width: 250px;
-  height: 35px;
-  border-radius: 5px;
-  border: none;
-  font-size: 17px;
-  font-family: 'Source Sans Pro';
-  cursor: pointer;
-  margin-bottom: 40px;
-  
-}
-
-#solar-roof-right-btn{
-  background-color: whitesmoke;
-}
-
-
-
-#solar-roof-left-btn{
-  background-color: black;
-  color: whitesmoke
-}
-
-
-
-
-
-.accessories-div {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFr0w4gBEk2s-St8LVtp1IfZCZgdAljtiCoRHVUHpC4meI4Btz3afHXB97XsI3DUiS_zA&usqp=CAU');
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 500px;
-  text-align: center;
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-
-.accessories-title {
-  padding-top: 80px;
-}
-
-
-
-.accessories-buttons {
-  display: flex;
-  gap: 20px
-}
-
-.accessories-buttons button {
-  
-  width: 250px;
-  height: 35px;
-  border-radius: 5px;
-  border: none;
-  font-size: 17px;
-  font-family: 'Source Sans Pro';
-  cursor: pointer;
-  margin-bottom: 40px;
-  
-}
-
-#accessories-right-btn{
-  background-color: whitesmoke;
-}
-
-
-
-#accessories-left-btn{
-  background-color: black;
-  color: whitesmoke
-}
 
 
 .menu-sidebar {
@@ -482,3 +126,4 @@ code {
 #close-icon {
   cursor: pointer
 }
+

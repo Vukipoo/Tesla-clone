@@ -8,8 +8,8 @@ function Home() {
         
         
         <div className='experience-tesla'>
-        <h1>Experience Tesla</h1>
-        <p>Schedule a demo drive today</p>
+        <h1 className="text-3xl font-bold">Experience Tesla</h1>
+        <p className="p-2 text-sm">Schedule a demo drive today</p>
         </div>
 
         <button id='demo-btn'>Demo Drive</button>
