@@ -12,7 +12,7 @@ function Home() {
         <p className="p-2 text-sm">Schedule a demo drive today</p>
         </div>
 
-        <button id='demo-btn'>Demo Drive</button>
+        <button id='demo-btn'><a href='https://www.tesla.com/drive'>Demo Drive</a></button>
     </div>
   )
 }
